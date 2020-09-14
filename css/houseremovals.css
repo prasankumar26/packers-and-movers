@@ -1,0 +1,29 @@
+#office-removals{
+    background-color: rgb(37,37,37);
+    padding: 38px;
+    }
+
+    .office_removals_left h2{
+        color: red;
+        text-transform: uppercase;
+    }
+
+
+    .about_three{
+        background-color: rgb(234,234,234);
+        padding: 20px;
+    }
+    
+    .about_three h2{
+        color: rgb(221,39,38);
+        font-weight: 600;
+        text-align: center;
+    }
+
+
+
+    .office_removals_one_right h2{
+        color: rgb(221,39,38);
+        font-weight: 600;
+        text-align: center;
+    }

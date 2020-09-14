@@ -1,0 +1,31 @@
+#about{
+    background-color: rgb(37,37,37);
+    padding: 38px;
+    }
+    
+    #about h2{
+        text-align: center;
+        color: #fff;
+    }
+
+    .card{
+        box-shadow: 0 0.125pc 5px 0 rgba(0,0,0,.16), 0 0.020833333in 10px 0 rgba(0,0,0,.1)
+    }
+
+    .card-img{
+        background-color: rgb(37,37,37);
+        padding: 50px 0px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card-heading{
+        font-weight: 400;
+        padding: 37px 0px 20px 0px;
+        font-size: 1.4em;
+    }
+
+    .card-img_img{
+        position: absolute;
+    }

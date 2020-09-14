@@ -1,0 +1,425 @@
+.body{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+
+
+/* Slider */
+.carousel-item {
+  height: 82vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-caption{
+position: absolute;
+top: 40%;
+}
+
+.btn_grp a {
+  font-size: 20px;
+  font-family: 'Rajdhani';
+  background: red;
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.btn_grp a:hover {
+  background-color: rgb(37,37,37);
+}
+
+a.bnner_btn {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+
+a.bnner_btn:hover {
+  background-color: rgb(37,37,37);
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-caption h3{
+    font-size: 14px !important;
+  }
+  .btn_grp{
+    display: none;
+  }
+}
+
+
+#homeTwo{
+  background-color: rgb(255,0,0); 
+    padding: 64px 0px 40px 0px;
+    margin-top: -25px;
+}
+
+#homeTwo h2{
+  color: #fff;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+
+
+
+
+
+.welcome__line strong {
+  color: red;
+}
+.welcome__line:before {
+  width: 70px;
+  height: 4px;
+  content: "";
+  position: absolute;
+  left: 0;
+  background: #3e3e3e;
+  top: 21px;
+}
+
+.welcome__left p{
+  color: #000;
+}
+
+.welcome__line {
+  font-family: 'Rajdhani';
+  /* font-size: 30px; */
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-left: 90px;
+}
+
+.welcome__line h1{
+  font-size: 1.8em !important;
+}
+
+.welcome__leftone img{
+  width: 50px;
+}
+.welcome__lefttwo{
+  width: 100px !important;
+  font-size: bold;
+  font-size: 1.4em;
+}
+
+.welcome_leftthree{
+  color: red;
+  font-size: 800;
+  font-size: 1.4em;
+}
+
+
+
+
+/* box__container */
+.box__container__color{
+  background-color: rgb(255,0,0);
+  padding: 20px 0px;
+}
+
+.box__left{
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #fff;
+}
+
+.box__leftone img{
+ width: 50px;
+ padding-right: 10px;
+}
+
+.box__lefttwo h2, p{
+  color: #fff;
+}
+
+
+
+/* our services */
+#services__container {
+  margin: 100px 40px 40px 0px;
+}
+.services__container__heading h2{
+  font-weight: 700;
+  margin: 40px 0px;
+}
+.services__container__one__heading{
+  display: flex;
+}
+.services__container__one__heading img{
+  width: 50px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+.services__container__one__heading h2{
+  font-size: 22px;
+  font-weight: 700;
+}
+.services__container__description p{
+  color: #000 !important;
+  margin-top: 12px;
+}
+.services__container__link a{
+  color: #000;
+  text-decoration: underline;
+  transition: 0.5s all ease-in;
+}
+.services__container__link a:hover{
+  color: red;
+}
+
+
+
+
+
+/* car section  */
+
+
+.ourcar__bg {
+  background: #000;
+  margin-top: 110px;
+  padding: 35px 0;
+  position: relative;
+  /* min-height: 150px !important; */
+  max-height: 130px;
+}
+
+
+
+.ourcar__img img{
+  width: 312px;
+  height: 270px;
+  margin-top: -150px;
+  margin-left: 40px;
+  object-fit: contain;
+}
+
+a.get_btn {
+  font-family: 'Rajdhani';
+  font-size: 18px;
+  text-transform: uppercase;
+  background: red;
+  padding: 8px 25px;
+  margin-top: 0;
+  color: #fff;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
+}
+
+.our__car__number a{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
+}
+.our__car__number a:hover{
+  color: red;
+}
+
+a.get_btn:hover{
+  background-color: #fff;
+  color: #000;
+} 
+
+.our__car__number h2{
+  color: #fff;
+  font-size: 1.8em;
+}
+
+/* hard image  */
+.ourcar__bg{
+  position: relative;
+}
+
+.hard__img{
+  position: absolute;
+  top: -340px;
+  right: 0px;
+  z-index: -1;
+}
+
+/* mobile car  */
+@media only screen and (max-width: 600px) {
+  .hard__img img{
+   display: none !important;
+  }
+  .our__car__number a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+  }
+  .our__car__number a:hover{
+    color: red;
+  }
+  .our__car__number h2{
+    color: #fff;
+    font-size: 1.3em;
+  }
+  .our__car__number{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .ourcar__img{
+    display: flex;
+    justify-content: center;
+  }
+  .ourcar__bg {
+    background: #000;
+    margin-top: 110px;
+    padding: 35px 0;
+    position: relative;
+    /* min-height: 150px !important; */
+    max-height: 230px;
+  }
+  
+  
+  
+  .ourcar__img img{
+    width: 212px;
+    height: 270px;
+    margin-top: -150px;
+    margin-left: 40px;
+    object-fit: contain;
+    text-align: center;
+
+  }
+  
+  .our__car__button{
+    display: flex;
+    justify-content: center;
+  }
+
+  a.get_btn {
+    font-family: 'Rajdhani';
+    font-size: 18px;
+    text-transform: uppercase;
+    background: red;
+    padding: 8px 25px;
+    margin-top: 0;
+    color: #fff;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  a.get_btn:hover{
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .our__car__number h2{
+    padding-left: 30px;
+  }
+  a.get_btn {
+    font-family: 'Rajdhani';
+    font-size: 16px;
+    text-transform: uppercase;
+    background: red;
+    padding: 8px 25px;
+    margin-top: 0;
+    color: #fff;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+}
+
+
+
+
+
+/* testimonials  */
+.testimonials {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+
+.testimonials {
+  background: #ffff;
+}
+
+.one-slide,
+.testimonial,
+.message {
+  border: none !important;
+  outline: none !important;
+}
+
+.icon-overlay {
+  position: absolute;
+  opacity: 0.3;
+  right: 10%;
+  top: 0;
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.carousel-controls .control {
+  position: absolute;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.prev {
+  left: -2.25rem;
+}
+
+.next {
+  right: -2.25rem;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    max-height: 700px;
+  }
+  .icon-overlay {
+    height: 300px;
+    top: calc(50% - 150px);
+  }
+  .carousel-controls .control {
+    width: 25px;
+    height: 25px;
+    top: inherit;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+  .control i {
+    font-size: .7rem;
+  }
+  .testimonials .message {
+    font-size: 1rem;
+  }
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+

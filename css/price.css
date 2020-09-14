@@ -1,0 +1,71 @@
+#about{
+    background-color: rgb(37,37,37);
+    padding: 38px;
+    }
+    
+    #about h2{
+        text-align: center;
+        color: #fff;
+    }
+
+
+
+
+    .about-four {
+        margin-bottom: 20px;
+        line-height: 1.7;
+    }
+    
+    .about-four ul {
+        margin: 20px 0;
+    }
+    
+    .about-four ul li {
+        list-style-type: none;
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 25px;
+        position: relative;
+    }
+    
+    .about-four ul li:before {
+        width: 10px;
+        height: 10px;
+        content: "";
+        position: absolute;
+        left: 0;
+        background: #ed2128;
+        top: 7px;
+    }
+    
+    .about-four h2{
+        color: red;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    
+    .about-four a{
+        color: red;
+        text-decoration: none;
+        transition: 0.5s all ease-in;
+    }
+    .about-four a:hover{
+       color: blue;
+    }
+
+
+
+
+
+
+    /* our price  */
+
+    .our_price{
+    background-color: rgb(234,234,234);
+    padding: 20px;
+    }
+
+    .price__heading h2{
+        color: red;
+        font-weight: bold;
+    }

@@ -1,0 +1,58 @@
+.nav-item img{
+  width: 30px;
+}
+
+.nav__bg__color{
+    background-color: rgba(255, 0, 0, 0.664);
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-item a{
+    font-size: 14px !important;
+}
+
+
+
+.freeone{
+    width: 60% !important;
+    font-size: 15px;
+}
+
+.freetwo{
+    width: 40% !important;
+}
+
+.tab-content{
+    /* background-color: rgba(189, 184, 184, 0.432); */
+    width: 100% !important;
+}
+
+.plus_one{
+    cursor: pointer;
+}
+
+.free_line{
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+.freequote_input{
+    width: 20px;
+}
+
+
+
+.getquote_right h2{
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.get_quote_one h2{
+    font-size: 18px;
+ font-weight: bold;
+ margin-bottom: 50px;
+}
+.get_quote_two h2{
+    font-size: 18px;
+ font-weight: bold;
+}

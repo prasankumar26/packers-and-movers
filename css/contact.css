@@ -1,0 +1,65 @@
+#about{
+    background-color: rgb(37,37,37);
+    padding: 38px;
+    }
+    
+    #about h2{
+        text-align: center;
+        color: #fff;
+    }
+   
+    .contact_one{
+        border-right: 1px solid gray;
+    }
+
+  .contact_one_img img{
+       background-color: red;
+       padding: 15px;
+       border-radius: 3px;
+    }
+
+    .contact_one_content{
+        width: 100%;
+    }
+
+    .contact_one_content address{
+        font-weight: bold;
+        padding: 0px 20px;
+    }
+
+    .contact_one_content a{
+        color: #000;
+        text-decoration: none;
+        transition: 0.5s all ease-out;
+        font-weight: bold;
+    }
+    .contact_one_content a:hover{
+       color: rgb(129, 127, 12);
+    }
+
+
+
+
+    /* container_two_bg  */
+
+    .container_two_bg {
+        background-color: rgb(234,234,234);
+        padding: 20px;
+    }
+
+    .form-date > input{
+        border: none;
+        width: 100%;
+        padding: 6px;
+    }
+
+    .contact_submit{
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+    }
+
+    .container_two_heading h2{
+        font-weight: bold;
+    }

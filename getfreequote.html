@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- slick  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/getfreequote.css">
+</head>
+<body>
+    
+
+
+<!-- ======= Top Bar ======= -->
+<section id="topbar" class="d-none d-lg-block">
+  <div class="topbar">
+  <div class="topbar__left">
+    <h4>Working 24 hours 7 days a week</h4>
+  </div>
+  <div class="topbar__right">
+    <i class="fa fa-phone"></i>
+    <span class="topbar__number mr-5">
+        <a href="tel:+6494461709">6170956788</a>
+    </span>
+    <i class="fa fa-envelope"></i>
+    <span class="topbar__number">
+      <a href = "mailto: abc@example.com">anytimeremoval1@gmail.com</a>
+    </span>
+  </div>
+</div>
+  </section>
+
+
+
+
+
+
+
+
+<!-- ======= Header ======= -->
+<header id="header">
+    <div class="container d-flex">
+
+      <div class="logo nav__mine mr-auto">
+        <h1 class="text-light"><a href="index.html"><img src="img/logo.png" class="img-fluid" alt=""></a></h1>
+        
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="drop-down"><a href="officeremovals.html">Removal Series <i class="fa fa-caret-down"></i></a>
+            <ul>
+              <li><a href="officeremovals.html">Office Removals </a></li>
+              <li><a href="houseremovals.html">Houseremovals </a></li>
+              
+             
+            </ul>
+          </li>
+          <li><a href="price.html">Our Price</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <button type="button" class="btn btn-dark ml-2 px-2 nav_first_btn"><a href="getfreequote.html" class="text-white">GET FREE QUOTE</a></button>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+
+
+
+
+
+
+
+  <div class="container mt-3">
+    <h2>Dynamic Tabs</h2>
+    <br>
+    <div class="row">
+        <div class="col-md-9">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+            <a class="nav-link active" href="#home">
+           <div class="nav__bg__color active text-center">
+            <img src="img/twentynine.png"  alt=""> <br>
+            BEDROOMS
+           </div>          
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#menu1">
+       <div class="nav__bg__color text-center">
+        <img src="img/twentynine.png"  alt=""> <br>
+        LIVING ROOMS
+       </div>          
+    </a>
+  </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#menu2">
+       <div class="nav__bg__color text-center">
+        <img src="img/twentynine.png"  alt=""> <br>
+        KITCHEN
+       </div>          
+    </a>
+  </li>
+
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#menu3">
+       <div class="nav__bg__color text-center">
+        <img src="img/twentynine.png"  alt=""> <br>
+        BOTHROOMS
+       </div>          
+    </a>
+  </li>
+
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#menu4">
+       <div class="nav__bg__color text-center">
+        <img src="img/twentynine.png"  alt=""> <br>
+        BOXCES AND PACKAGING
+       </div>          
+    </a>
+  </li>
+
+     
+      
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+  <div class="row free_line">
+  <div class="col-md-12">
+    <div class="free_tab d-flex justify-content-between">
+      <h4 class="freeone">Double Bed & Mattress</h4>
+      <h4 class="freetwo">
+        <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input" />
+<input type="button" onclick="incrementValue()" value="+" />
+         <!-- <span class="plus_one" id="clickme">+</span> 
+         <span class="plus_two pl-2">0</span> 
+         <span class="plus_one pl-2" id="clickmeless">-</span>  -->
+      </h4>
+  </div>
+  </div>
+  </div>
+
+  <div class="row mt-4 free_line">
+    <div class="col-md-12">
+      <div class="free_tab d-flex justify-content-between">
+        <h4 class="freeone">Kingsize Bed & Mattress</h4>
+        <h4 class="freetwo">
+          <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+        </h4>
+    </div>
+    </div>
+    </div>
+
+    <div class="row mt-4 free_line">
+      <div class="col-md-12">
+        <div class="free_tab d-flex justify-content-between">
+          <h4 class="freeone">Single Wardrobe</h4>
+          <h4 class="freetwo">
+            <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+          </h4>
+      </div>
+      </div>
+      </div>
+
+      <div class="row mt-4 free_line">
+        <div class="col-md-12">
+          <div class="free_tab d-flex justify-content-between">
+            <h4 class="freeone">Chest Of Drawers</h4>
+            <h4 class="freetwo">
+              <input type="button" onclick="decrementValue()" value="-" />
+              <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+              <input type="button" onclick="incrementValue()" value="+" />
+            </h4>
+        </div>
+        </div>
+        </div>
+
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Bedside Table</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+          <div class="row mt-4 free_line">
+            <div class="col-md-12">
+              <div class="free_tab d-flex justify-content-between">
+                <h4 class="freeone">Dressing Table</h4>
+                <h4 class="freetwo">
+                  <input type="button" onclick="decrementValue()" value="-" />
+                  <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                  <input type="button" onclick="incrementValue()" value="+" />
+                </h4>
+            </div>
+            </div>
+            </div>
+          <div class="row mt-4 free_line">
+            <div class="col-md-12">
+              <div class="free_tab d-flex justify-content-between">
+                <h4 class="freeone">Television</h4>
+                <h4 class="freetwo">
+                  <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+                </h4>
+            </div>
+            </div>
+            </div>
+          <div class="row mt-4 mb-4 free_line">
+            <div class="col-md-12">
+              <div class="free_tab d-flex justify-content-between">
+                <h4 class="freeone">Dressing Table</h4>
+                <h4 class="freetwo">
+                  <input type="button" onclick="decrementValue()" value="-" />
+                  <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                  <input type="button" onclick="incrementValue()" value="+" />
+                </h4>
+            </div>
+            </div>
+            </div>
+
+      </div>
+
+<!-- menu 1  -->
+      <div id="menu1" class="container tab-pane fade"><br>
+
+        <div class="row free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Three Seater Sofa</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+        <div class="row free_line mt-4">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Armchair</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+        <div class="row free_line mt-4">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Coffee Table</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+        <div class="row free_line mt-4 mb-4">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Small Television/TV (Less Than 30)</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+       
+
+       
+      </div>
+
+
+
+<!-- menu 2 -->
+
+      <div id="menu2" class="container tab-pane fade"><br>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Fridge Freezer</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Washing Machine</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Microwave Oven</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Cooker</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Dishwasher</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Dining Chair</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+      </div>
+
+
+
+
+
+
+<!-- menu three  -->
+
+      <div id="menu3" class="container tab-pane fade"><br>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Large Mirror</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+          <div class="row mt-4 free_line">
+            <div class="col-md-12">
+              <div class="free_tab d-flex justify-content-between">
+                <h4 class="freeone">Small Mirror</h4>
+                <h4 class="freetwo">
+                  <input type="button" onclick="decrementValue()" value="-" />
+                  <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                  <input type="button" onclick="incrementValue()" value="+" />
+                </h4>
+            </div>
+            </div>
+            </div>
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Rug</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Bathroom Cabinet</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Bath Tub</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+      </div>
+
+
+
+<!-- menu 4 -->
+      <div id="menu4" class="container tab-pane fade"><br>
+        <div class="row mt-4 free_line">
+          <div class="col-md-12">
+            <div class="free_tab d-flex justify-content-between">
+              <h4 class="freeone">Large Box</h4>
+              <h4 class="freetwo">
+                <input type="button" onclick="decrementValue()" value="-" />
+                <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                <input type="button" onclick="incrementValue()" value="+" />
+              </h4>
+          </div>
+          </div>
+          </div>
+
+          <div class="row mt-4 free_line">
+            <div class="col-md-12">
+              <div class="free_tab d-flex justify-content-between">
+                <h4 class="freeone">Medium Box</h4>
+                <h4 class="freetwo">
+                  <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+                </h4>
+            </div>
+            </div>
+            </div>
+
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Small Box</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Wardrobe Box</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+<input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+<input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Suitcase</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+
+            <div class="row mt-4 free_line">
+              <div class="col-md-12">
+                <div class="free_tab d-flex justify-content-between">
+                  <h4 class="freeone">Bag</h4>
+                  <h4 class="freetwo">
+                    <input type="button" onclick="decrementValue()" value="-" />
+                    <input type="text" name="quantity" value="0" maxlength="2" max="100" size="1" id="number" class="freequote_input"/>
+                    <input type="button" onclick="incrementValue()" value="+" />
+                  </h4>
+              </div>
+              </div>
+              </div>
+
+
+
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="col-md-3">
+   <div class="getquote_right">
+    <h2>Your Move Summary</h2>
+    <hr>
+   </div>
+   <!-- <div class="get_quote_one">
+    <h2>Bedrooms</h2>
+   </div>
+   <div class="get_quote_two">
+    <h2>Kitchen</h2>
+   </div> -->
+</div>
+
+</div>
+
+<div class="freequote_button mb-4 d-flex justify-content-center">
+  <button type="button" class="btn btn-dark px-4">Book Now</button>
+</div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer black -->
+<section id="footerBlack__container">
+<div class="container">
+  <div class="footerblack__black">
+  <div class="footerBlack__container">
+    <div class="footerBlack__container__one mb-2">
+      <i class="fa fa-phone"></i>
+      <a href="tel:123-456-7890">Call Us : 123-456-7890</a>
+    </div>  
+    <div class="footerBlack__container__two mb-2">
+      <i class="fa fa-envelope"></i>
+      <a href = "mailto: abc@example.com">anytimeremoval1@gmail.com</a>
+    </div>
+    <div class="footerBlack__container__three mb-2">
+      <i class="fa fa-map-marker"></i>
+      <a href="tel:123-456-7890">Call Us : 123-456-7890</a>
+      <i class="fa fa-facebook"></i>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+<footer>
+  <div class="container footer-one my-4">
+   <a href="index.html">HOME </a> <span>/</span>
+   <a href="about.html">ABOUT </a> <span>/</span>
+   <a href="index.html">OUR PRICE </a> <span>/</span>
+   <a href="index.html">REVIEWS </a> <span>/</span>
+   <a href="index.html">BLOG </a> <span>/</span>
+   <a href="index.html">CONTACT </a> <span>/</span>
+   <a href="index.html">GET A QUOTE </a> <span>/</span>
+  </div>
+</footer>
+
+<hr class="footer_line">
+
+
+
+<!-- footer copywright  -->
+
+<div class="container">
+  <div class="footer__copywrite">
+    <div class="footer__copywrite__left">
+      Copyright © 2020 All right reserved. | Design By JR Technologies Web
+    </div>
+    <div class="footer__copywrite__right">
+      We Cover All Over : 
+      <i class="fa fa-map-marker"></i>Birmingham
+      <i class="fa fa-map-marker"></i>Birmingham
+      <i class="fa fa-map-marker"></i>Birmingham
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script src="script/sticky.js"></script>
+<script src="script/index.js"></script>
+
+<!-- get free quote nav  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- slick  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+ 
+
+</body>
+</html>
